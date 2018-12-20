@@ -21,3 +21,52 @@
     margin: 0;
     font-size: 10px;
     color: blue; }
+
+.searchwrapper {
+  background-image: url("../images/search.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .searchwrapper .forsearch {
+    margin: 0 30% 0 5%;
+    font-family: 'Arimo', sans-serif; }
+  .searchwrapper .searchinfo {
+    margin-top: 30px; }
+  .searchwrapper .searchhead {
+    padding: 0;
+    font-weight: bold;
+    font-size: 40px; }
+  .searchwrapper .searchbars {
+    padding: 10px;
+    display: flex;
+    padding-top: 40px; }
+    .searchwrapper .searchbars .searchbar {
+      flex: 1;
+      padding: 5px;
+      font-size: 10px; }
+      .searchwrapper .searchbars .searchbar div {
+        padding: 5px; }
+      .searchwrapper .searchbars .searchbar input {
+        width: 100%;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 20px;
+        outline: none;
+        text-align: center; }
+  .searchwrapper .searchbuts {
+    flex: 1;
+    padding-top: 25px; }
+  .searchwrapper .searchbut {
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    padding-top: 5px; }
+    .searchwrapper .searchbutinfo {
+      font-size: 10px;
+      color: blue;
+      padding: 10px;
+      text-align: center; }
